@@ -1,0 +1,199 @@
+{
+  "meta": {
+    "siteTitle": "Portfolio - Muhammad Farhan Aprilianto",
+    "version": "1.0.0",
+    "updatedAt": "2026-08-20"
+  },
+  "nav": {
+    "logoText": "farhanaprilianto",
+    "links": [
+      {
+        "id": "about",
+        "en": "ABOUT",
+        "id_lang": "TENTANG"
+      },
+      {
+        "id": "work",
+        "en": "WORK",
+        "id_lang": "PROYEK"
+      },
+      {
+        "id": "experience",
+        "en": "EXPERIENCE",
+        "id_lang": "PENGALAMAN"
+      },
+      {
+        "id": "contact",
+        "en": "KONTAK",
+        "id_lang": "KONTAK"
+      }
+    ],
+    "resumeButtonText": {
+      "en": "Download Resume",
+      "id_lang": "Unduh Resume"
+    },
+    "resumeUrl": "/CV_Muhammad_Farhan_Aprilianto.pdf"
+  },
+  "hero": {
+    "headline": "Building Digital Products & Experiences.",
+    "subheadline": {
+      "en": "Informatics Engineering Fresh Graduate from Universitas Pancasila specializing in Web Development (Next.js, Flutter, Laravel) and UI/UX Design (Figma). Experienced in crafting responsive digital products, POS & e-commerce platforms, and creative visual content.",
+      "id_lang": "Fresh Graduate Teknik Informatika dari Universitas Pancasila dengan spesialisasi Web Development (Next.js, Flutter, Laravel) dan UI/UX Design (Figma). Berpengalaman dalam merancang produk digital responsif, platform POS & e-commerce, serta konten visual kreatif."
+    },
+    "badge": {
+      "en": "AVAILABLE FOR SELECTIVE PROJECTS",
+      "id_lang": "TERSEDIA UNTUK PROYEK PILIHAN"
+    }
+  },
+  "profile": {
+    "name": "Muhammad Farhan Aprilianto",
+    "avatar": "/farhan-avatar.jpg",
+    "cardAvatar": "/farhan-suit.jpg",
+    "role": {
+      "en": "Full-Stack Web / Mobile Developer & UI/UX Designer",
+      "id_lang": "Full-Stack Web / Mobile Developer & UI/UX Designer"
+    },
+    "bio": {
+      "en": "VISUAL IDENTITY",
+      "id_lang": "IDENTITAS VISUAL"
+    },
+    "location": "Jakarta, Indonesia",
+    "phone": "+62 857-3202-1121",
+    "whatsapp": "https://wa.me/6285732021121",
+    "email": "farhankey666@gmail.com",
+    "instagram": "https://instagram.com/frhanap_",
+    "shareUrl": "https://farhanaprilianto.dev",
+    "shareMessage": {
+      "en": "Check Out Muhammad Farhan Aprilianto's Developer Portfolio!",
+      "id_lang": "Lihat Portofolio Developer Muhammad Farhan Aprilianto!"
+    }
+  },
+  "stats": {
+    "yearsExperience": {
+      "value": "03+",
+      "label": {
+        "en": "Years Experience",
+        "id_lang": "Tahun Pengalaman"
+      }
+    },
+    "projectsShipped": {
+      "value": "10+",
+      "label": {
+        "en": "Projects Shipped",
+        "id_lang": "Proyek Selesai"
+      }
+    },
+    "topAward": {
+      "title": "Full-Stack & UI/UX Specialist",
+      "subtitle": {
+        "en": "Visual Identity & Digital Products",
+        "id_lang": "Identitas Visual & Produk Digital"
+      }
+    }
+  },
+  "projects": [
+    {
+      "id": "p1",
+      "title": "NOXICK STUDIO",
+      "category": "PLATFORM / WEB APPLICATION",
+      "description": {
+        "en": "A digital design studio & custom streetwear e-commerce platform built with Next.js 16 (App Router), React 19, and Tailwind CSS. Integrated Midtrans Payment Gateway client for automated down payments (DP) & settlements, JWT authentication, and admin order dashboard.",
+        "id_lang": "Studio desain digital & platform e-commerce streetwear custom berbasis Next.js 16 (App Router), React 19, dan Tailwind CSS. Terintegrasi Midtrans Payment Gateway untuk DP & pelunasan otomatis, autentikasi JWT, dan dashboard admin."
+      },
+      "image": "/noxick-preview.jpg",
+      "tags": [
+        "Next.js 16",
+        "React 19",
+        "Tailwind",
+        "Midtrans",
+        "MySQL"
+      ],
+      "liveUrl": "https://github.com/MuhammadFarhanAprilianto/DesignBaju-NOXICK",
+      "githubUrl": "https://github.com/MuhammadFarhanAprilianto/DesignBaju-NOXICK",
+      "featured": true
+    },
+    {
+      "id": "p2",
+      "title": "GLOBAL ASPECT TECH",
+      "category": "WEB APPLICATION / INTERNSHIP",
+      "description": {
+        "en": "Corporate web platform & digital automation solution engineered during Web Developer Internship at PT Global Aspect Technology. Designed high-fidelity UI/UX wireframes in Figma, implemented web interfaces using Laravel Framework and Tailwind CSS, and managed deployment on Hostinger.",
+        "id_lang": "Platform web korporat & solusi otomatisasi digital yang dirancang selama Magang Web Developer di PT Global Aspect Technology. Merancang wireframe UI/UX di Figma, mengimplementasikan antarmuka web dengan Laravel dan Tailwind CSS, serta mengelola deployment di Hostinger."
+      },
+      "image": "/globalaspect-preview.png",
+      "tags": [
+        "Laravel",
+        "Blade",
+        "Tailwind CSS",
+        "Hostinger",
+        "Figma"
+      ],
+      "liveUrl": "https://github.com/MuhammadFarhanAprilianto/global-aspek-teknika-web",
+      "githubUrl": "https://github.com/MuhammadFarhanAprilianto/global-aspek-teknika-web",
+      "featured": true
+    },
+    {
+      "id": "p3",
+      "title": "NYAPAH BANYU",
+      "category": "WEB SYSTEM / AGRICULTURAL OPERATIONS",
+      "description": {
+        "en": "Integrated web application for plantation operational management built using Laravel Framework, PHP, and MySQL with multi-dashboard views (Owner, Manager, Crop View), nursery tracking, harvest logistics, and automated report generation.",
+        "id_lang": "Aplikasi web terintegrasi untuk manajemen operasional perkebunan menggunakan Laravel, PHP, dan MySQL dengan multi-dashboard, pelacakan panen, logistik, dan laporan otomatis."
+      },
+      "image": "/nyapahbanyu-preview.png",
+      "tags": [
+        "Laravel",
+        "PHP",
+        "MySQL",
+        "Blade",
+        "Analytics"
+      ],
+      "liveUrl": "https://github.com/MuhammadFarhanAprilianto/si-perkebunan-nyapah-banyu",
+      "githubUrl": "https://github.com/MuhammadFarhanAprilianto/si-perkebunan-nyapah-banyu",
+      "featured": true
+    },
+    {
+      "id": "p4",
+      "title": "GADOGADO_APP",
+      "category": "MOBILE APP / F&B POS SYSTEM",
+      "description": {
+        "en": "Android-based digital POS system developed with Flutter, Cloud Firestore, and Supabase Storage featuring automated raw material inventory deduction based on menu recipes, delivery tracking, and visual PDF sales reports.",
+        "id_lang": "Sistem Kasir Digital (POS) berbasis Flutter, Cloud Firestore, dan Supabase Storage dengan pemotongan stok bahan baku otomatis berdasar resep menu dan laporan PDF."
+      },
+      "image": "/gadogado-preview.png",
+      "tags": [
+        "Flutter",
+        "Cloud Firestore",
+        "Supabase",
+        "POS System"
+      ],
+      "liveUrl": "https://github.com/MuhammadFarhanAprilianto/GadoGado_App",
+      "githubUrl": "https://github.com/MuhammadFarhanAprilianto/GadoGado_App",
+      "featured": true
+    }
+  ],
+  "achievements": [
+    {
+      "id": "a1",
+      "year": "2026",
+      "title": {
+        "en": "Informatics Engineering Graduate",
+        "id_lang": "Lulusan Teknik Informatika"
+      },
+      "issuer": "Universitas Pancasila",
+      "description": {
+        "en": "Fresh Graduate with specialization in Full-Stack Web (Next.js, Laravel), Mobile Development (Flutter), and UI/UX Design.",
+        "id_lang": "Fresh Graduate spesialisasi Full-Stack Web (Next.js, Laravel), Mobile Development (Flutter), dan UI/UX Design."
+      }
+    }
+  ],
+  "footer": {
+    "copyright": "© 2026 Muhammad Farhan Aprilianto. All Rights Reserved.",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/farhan2004/",
+      "github": "https://github.com/MuhammadFarhanAprilianto",
+      "instagram": "https://instagram.com/frhanap_",
+      "twitter": "https://twitter.com/farhanaprilianto"
+    }
+  }
+}
