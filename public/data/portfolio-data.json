@@ -93,6 +93,48 @@
   },
   "projects": [
     {
+      "id": "p-labs",
+      "title": "LABSSTDIO",
+      "category": "CREATIVE STUDIO / WEB PLATFORM",
+      "description": {
+        "en": "Modern creative digital studio platform & interactive portfolio showcase built with Next.js 16 (App Router), React 19, TypeScript, and Tailwind CSS v4. Features interactive 3D WebGL particle wave animations with Three.js & custom canvas shaders, plus kinetic scrolling powered by Lenis and Framer Motion.",
+        "id_lang": "Platform studio digital kreatif dan showcase portofolio interaktif berbasis Next.js 16 (App Router), React 19, TypeScript, dan Tailwind CSS v4. Menampilkan animasi 3D WebGL particle wave dengan Three.js & custom canvas shaders, serta kinetic scrolling mulus bertenaga Lenis dan Framer Motion."
+      },
+      "image": "/labsstudio-preview.webp",
+      "tags": [
+        "Next.js 16",
+        "React 19",
+        "TypeScript",
+        "Three.js (3D)",
+        "Tailwind CSS v4",
+        "Lenis Scroll"
+      ],
+      "liveUrl": "https://labsstdio.vercel.app/",
+      "githubUrl": "https://github.com/MuhammadFarhanAprilianto",
+      "featured": true
+    },
+    {
+      "id": "p-muqi",
+      "title": "MUQI",
+      "category": "MOBILE APP / ISLAMIC LEARNING PLATFORM",
+      "description": {
+        "en": "Cross-platform mobile application developed with Flutter (Dart) and MongoDB Atlas Cloud Database (TLS 1.3/SSL encryption) for real-time tahfizh assessment, attendance, and daily mutaba'ah tracking. Features dual-portal access (Guru & Wali Murid), custom Murottal audio player, SHA-256 secure auth, and automated official report card (Rapor) PDF export.",
+        "id_lang": "Aplikasi mobile cross-platform berbasis Flutter (Dart) dan MongoDB Atlas Cloud Database (TLS 1.3/SSL) untuk penilaian tahfizh real-time, absensi, dan mutaba'ah harian. Dilengkapi akses dual-portal (Guru & Wali Murid), audio player Murottal kustom, autentikasi aman SHA-256, dan ekspor Rapor PDF otomatis."
+      },
+      "image": "/muqi-preview.webp",
+      "tags": [
+        "Flutter",
+        "Dart",
+        "MongoDB Atlas",
+        "Figma UI/UX",
+        "PDF Export",
+        "Audio Player"
+      ],
+      "liveUrl": "https://github.com/MuhammadFarhanAprilianto/MUQI",
+      "githubUrl": "https://github.com/MuhammadFarhanAprilianto/MUQI",
+      "featured": true
+    },
+    {
       "id": "p1",
       "title": "NOXICK STUDIO",
       "category": "PLATFORM / WEB APPLICATION",
