@@ -10,39 +10,28 @@ import EducationExperienceSection from '@/components/EducationExperienceSection'
 import CertificatesSection from '@/components/CertificatesSection';
 import Footer from '@/components/Footer';
 import CmsEditorModal from '@/components/CmsEditorModal';
+import defaultPortfolioData from '../../public/data/portfolio-data.json';
 
 export default function Home() {
-  const [portfolioData, setPortfolioData] = useState(null);
+  const [portfolioData, setPortfolioData] = useState(defaultPortfolioData);
   const [lang, setLang] = useState('en'); // 'en' or 'id_lang'
   const [theme, setTheme] = useState('light');
   const [cmsModalOpen, setCmsModalOpen] = useState(false);
-  const [loading, setLoading] = useState(true);
 
-  // Dynamic Client-side Fetch of Local CMS portfolio-data.json
+  // Sync with any dynamic runtime updates from public/data/portfolio-data.json if available
   useEffect(() => {
     document.title = 'FarhanPortfolio';
     fetch('/data/portfolio-data.json')
       .then(res => res.json())
       .then(data => {
-        setPortfolioData(data);
-        setLoading(false);
+        if (data && typeof data === 'object') {
+          setPortfolioData(data);
+        }
       })
       .catch(err => {
-        console.error('Failed to load portfolio-data.json:', err);
-        setLoading(false);
+        // Fallback gracefully to bundled JSON data
       });
   }, []);
-
-  if (loading) {
-    return (
-      <div className="min-h-screen bg-[#faf9f6] flex flex-col items-center justify-center">
-        <div className="w-12 h-12 rounded-2xl border-4 border-blue-500/20 border-t-blue-500 animate-spin" />
-        <div className="mt-4 font-mono text-xs text-slate-600 tracking-wider uppercase">
-          FETCHING PORTFOLIO DATA...
-        </div>
-      </div>
-    );
-  }
 
   return (
     <div className="min-h-screen flex flex-col bg-[#faf9f6] bg-dot-grid text-slate-900 transition-colors duration-300">

@@ -93,6 +93,28 @@
   },
   "projects": [
     {
+      "id": "p-velocex",
+      "title": "VELOCEX",
+      "category": "FINTECH / REAL-TIME TRADING & PORTFOLIO",
+      "description": {
+        "en": "Ultra-low latency institutional-grade cryptocurrency trading platform and portfolio tracker built with Next.js (App Router), React, TypeScript, Golang (Go), Docker, and Tailwind CSS. Features real-time WebSocket live ticker streaming, interactive candlestick charts, automated order book matching simulation, multi-asset portfolio tracking, and responsive dark-mode fintech UI.",
+        "id_lang": "Platform trading kripto institusional ultra-low latency dan pelacak portofolio berbasis Next.js (App Router), React, TypeScript, Golang (Go), Docker, dan Tailwind CSS. Menampilkan streaming live ticker WebSocket real-time, analisis grafik candlestick interaktif, simulasi order book matching engine, pelacakan portofolio multi-aset, dan antarmuka fintech dark-mode yang responsif."
+      },
+      "image": "/Velocex.jpeg",
+      "tags": [
+        "Next.js",
+        "Golang",
+        "Docker",
+        "TypeScript",
+        "WebSocket",
+        "Tailwind CSS",
+        "FinTech UI"
+      ],
+      "liveUrl": "https://veloce-x-pi.vercel.app/",
+      "githubUrl": "https://github.com/MuhammadFarhanAprilianto",
+      "featured": true
+    },
+    {
       "id": "p-labs",
       "title": "LABSSTDIO",
       "category": "CREATIVE STUDIO / WEB PLATFORM",

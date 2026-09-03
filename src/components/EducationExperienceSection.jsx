@@ -11,6 +11,7 @@ import {
   Smartphone, 
   CheckCircle2, 
   Globe, 
+  Activity,
   ChevronDown,
   ChevronsUpDown
 } from 'lucide-react';
@@ -65,6 +66,20 @@ export default function EducationExperienceSection({ data, lang }) {
 
   // Sorted strictly from Newest to Oldest (2026 -> 2025 -> 2024 -> 2023)
   const experienceList = [
+    {
+      id: 'exp-velocex',
+      period: 'August – September 2026',
+      duration: '1 Month',
+      typeBadge: 'FinTech Platform',
+      company: 'Research Developer Independent – VeloceX (Real-Time Trading & Portfolio Tracker)',
+      role: 'Full-Stack Web Developer & UI/UX Designer',
+      bullets: [
+        'Architected and engineered an ultra-low latency cryptocurrency trading web platform and multi-asset portfolio tracker utilizing Next.js (App Router), React, TypeScript, Golang (Go), Docker, and Tailwind CSS.',
+        'Engineered high-throughput backend services and real-time market data streaming via Golang & WebSockets for low-latency live price tickers, interactive candlestick chart analytics, and order book depth visualization.',
+        'Containerized services using Docker, implemented client-side transaction simulation, automated portfolio PnL metrics calculation, and sleek institutional dark-mode UI.'
+      ],
+      icon: Activity,
+    },
     {
       id: 'exp-labs',
       period: 'July – August 2026',

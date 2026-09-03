@@ -161,7 +161,19 @@ def build_pdf(filename):
     story.append(Paragraph("WORK & PROJECT EXPERIENCE", section_heading))
     story.append(HRFlowable(width="100%", thickness=0.8, color=colors.black, spaceBefore=1, spaceAfter=4))
 
-    # 1. LabsStdio
+    # 1. VeloceX
+    story.append(create_item_header(
+        "Full-Stack Web Developer & UI/UX Designer",
+        "August – September 2026",
+        "Research Developer Independent – VeloceX (Real-Time Trading & Portfolio Tracker)"
+    ))
+    story.append(Spacer(1, 2))
+    story.append(Paragraph("• Architected and engineered an ultra-low latency cryptocurrency trading web platform and multi-asset portfolio tracker utilizing Next.js (App Router), React, TypeScript, Golang (Go), Docker, and Tailwind CSS.", bullet_style))
+    story.append(Paragraph("• Engineered high-throughput backend services and real-time market data streaming via Golang & WebSockets for low-latency live price tickers, interactive candlestick chart analytics, and order book depth visualization.", bullet_style))
+    story.append(Paragraph("• Containerized services using Docker, implemented client-side transaction simulation, automated portfolio PnL metrics calculation, and sleek institutional dark-mode UI.", bullet_style))
+    story.append(Spacer(1, 3))
+
+    # 2. LabsStdio
     story.append(create_item_header(
         "Front-End / Creative Web Developer & UI/UX Designer",
         "July – August 2026",
@@ -276,11 +288,11 @@ def build_pdf(filename):
     # ==================== SKILLS & COMPETENCIES ====================
     story.append(Paragraph("SKILLS & COMPETENCIES", section_heading))
     story.append(HRFlowable(width="100%", thickness=0.8, color=colors.black, spaceBefore=1, spaceAfter=4))
-    story.append(Paragraph("• <b>Web Development:</b> Next.js 16 (React 19), TypeScript, Tailwind CSS v4, Three.js (WebGL 3D), Framer Motion, Lenis Smooth Scroll, Laravel (PHP), HTML5/CSS3, Blade Templating, RESTful API, JavaScript", bullet_style))
+    story.append(Paragraph("• <b>Web & FinTech Development:</b> Next.js (React), TypeScript, Tailwind CSS, WebSockets (Live Streaming), Three.js (WebGL 3D), Framer Motion, Lenis Scroll, Laravel (PHP), RESTful API, JavaScript", bullet_style))
     story.append(Paragraph("• <b>Mobile Development:</b> Flutter, Dart, Cross-Platform App Development, Provider State Management, Audio Player & TTS Integration", bullet_style))
-    story.append(Paragraph("• <b>UI/UX & Visual Design:</b> Figma (Wireframing, High-Fidelity Prototyping, Design Systems), User Research, Canva, CapCut", bullet_style))
-    story.append(Paragraph("• <b>Backend & Database:</b> MongoDB Atlas Cloud, MySQL, Cloud Firestore (Firebase), Supabase, JWT Authentication, SHA-256 Hashing, Midtrans Payment Gateway Integration", bullet_style))
-    story.append(Paragraph("• <b>Tools & Environment:</b> Antigravity IDE, Visual Studio Code, Git/GitHub, Hostinger (Web Hosting), Draw.io, Microsoft Office", bullet_style))
+    story.append(Paragraph("• <b>UI/UX & Visual Design:</b> Figma (Trading Dashboards, Wireframing, High-Fidelity Prototyping, Design Systems), User Research, Canva, CapCut", bullet_style))
+    story.append(Paragraph("• <b>Backend & Systems:</b> Golang (Go), Docker Containerization, MongoDB Atlas Cloud, MySQL, Cloud Firestore, Supabase, JWT Auth, SHA-256, Midtrans Gateway", bullet_style))
+    story.append(Paragraph("• <b>Tools & Environment:</b> Antigravity IDE, Visual Studio Code, Git/GitHub, Docker, Vercel, Hostinger (Web Hosting), Draw.io, Microsoft Office", bullet_style))
     story.append(Paragraph("• <b>Soft Skills:</b> Organizational Leadership, System Analysis (UML/SRS), Effective Communication, Time Management, Teamwork", bullet_style))
     story.append(Paragraph("• <b>Languages:</b> Indonesian (Native), English (Working Proficiency / Basic)", bullet_style))
 

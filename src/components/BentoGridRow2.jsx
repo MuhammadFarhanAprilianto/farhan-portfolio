@@ -6,11 +6,11 @@ export default function BentoGridRow2({ data, lang }) {
   const capabilities = [
     {
       id: 'webdev',
-      title: isEn ? 'Web Development' : 'Pengembangan Web',
+      title: isEn ? 'Web & FinTech Development' : 'Pengembangan Web & FinTech',
       description: isEn
-        ? 'Building responsive, high-performance web applications using Next.js (React), Laravel (PHP), RESTful APIs, and Tailwind CSS with secure database architecture.'
-        : 'Membangun aplikasi web responsif dan berkinerja tinggi menggunakan Next.js (React), Laravel (PHP), RESTful API, dan Tailwind CSS dengan arsitektur basis data yang aman.',
-      badges: ['Next.js', 'Laravel', 'Tailwind CSS', 'RESTful API', 'JavaScript'],
+        ? 'Building high-performance, real-time web applications & trading platforms using Next.js (React), TypeScript, WebSocket live streaming, RESTful APIs, and Tailwind CSS with secure architecture.'
+        : 'Membangun aplikasi web dan platform trading real-time berkinerja tinggi menggunakan Next.js (React), TypeScript, WebSocket live streaming, RESTful API, dan Tailwind CSS dengan arsitektur aman.',
+      badges: ['Next.js', 'React', 'TypeScript', 'WebSocket', 'Tailwind CSS', 'RESTful API'],
     },
     {
       id: 'mobiledev',
@@ -24,17 +24,17 @@ export default function BentoGridRow2({ data, lang }) {
       id: 'uiuxdesign',
       title: isEn ? 'UI/UX & Visual Design' : 'UI/UX & Desain Visual',
       description: isEn
-        ? 'Designing intuitive digital experiences, user flows, interactive wireframes, high-fidelity prototypes, and design systems in Figma through user-centered research.'
-        : 'Merancang pengalaman digital yang intuitif, alur pengguna, wireframe interaktif, prototipe high-fidelity, dan sistem desain di Figma berbasis riset pengguna.',
-      badges: ['Figma', 'Wireframing', 'High-Fidelity', 'Design Systems', 'User Research'],
+        ? 'Designing intuitive digital experiences, high-fidelity trading & SaaS dashboards, user flows, interactive wireframes, and design systems in Figma through user-centered research.'
+        : 'Merancang pengalaman digital yang intuitif, dashboard trading & SaaS high-fidelity, alur pengguna, wireframe interaktif, dan sistem desain di Figma berbasis riset pengguna.',
+      badges: ['Figma', 'FinTech UI', 'Wireframing', 'Design Systems', 'User Research'],
     },
     {
       id: 'backend-sys',
       title: isEn ? 'Backend & System Analysis' : 'Backend & Analisis Sistem',
       description: isEn
-        ? 'Architecting full-stack systems with MySQL databases, JWT authentication, Midtrans Payment Gateway integration, Hostinger deployment, and UML/SRS documentation.'
-        : 'Merancang sistem full-stack dengan basis data MySQL, autentikasi JWT, integrasi Midtrans Payment Gateway, deployment Hostinger, serta dokumentasi UML/SRS.',
-      badges: ['MySQL', 'Midtrans', 'JWT Auth', 'System Analysis', 'Hostinger'],
+        ? 'Architecting high-throughput backend services and full-stack systems with Golang (Go), Docker containerization, MySQL/MongoDB databases, JWT authentication, Midtrans Payment Gateway, real-time matching engine logic, and cloud deployment.'
+        : 'Merancang layanan backend berkecepatan tinggi dan sistem full-stack dengan Golang (Go), kontainerisasi Docker, basis data MySQL/MongoDB, autentikasi JWT, Midtrans Payment Gateway, logika matching engine real-time, dan deployment cloud.',
+      badges: ['Golang', 'Docker', 'WebSocket Engine', 'MySQL', 'MongoDB Atlas', 'JWT Auth', 'Midtrans', 'Vercel'],
     },
   ];
 
